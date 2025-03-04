@@ -1,0 +1,32 @@
+{
+    "version": "0.2",
+    "floorplan": "FE_LROP",
+    "project": {
+        "name": "stores-list-app",
+        "targetFolder": "/home/user/projects/zfull",
+        "title": "A Fiori elements application for managing stores with a list report.",
+        "description": "A Fiori elements application for managing stores with a list report.",
+        "ui5Version": "1.132.1",
+        "localUI5Version": "1.82.2",
+        "sapux": true
+    },
+    "service": {
+        "servicePath": "/service/zfull/",
+        "capService": {
+            "projectPath": "/home/user/projects/zfull",
+            "serviceName": "zfullSrv",
+            "serviceCdsPath": "srv/service.cds"
+        }
+    },
+    "entityConfig": {
+        "mainEntity": {
+            "entityName": "Stores"
+        },
+        "generateLROPAnnotations": true
+    },
+    "projectType": "LIST_REPORT_OBJECT_PAGE",
+    "telemetryData": {
+        "generationSourceName": "AI Headless",
+        "generationSourceVersion": "1.16.4"
+    }
+}
