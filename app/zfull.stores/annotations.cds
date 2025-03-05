@@ -41,7 +41,6 @@ annotate service.Stores with @(
                 $Type : 'UI.DataField',
                 Value : edit_addr_ID,
                 Label : 'edit_addr_ID',
-                Criticality : {$edmJson :{$If :[{$Eq :[{$Path : 'edit_addr.'},'Open']}, 1, 3]}}
             }, ],
     },
     UI.LineItem                  : [
