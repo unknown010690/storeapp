@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title> Project Preview </title>
+    <title> Application Overview </title>
     <script src="https://ui5.sap.com/1.129.2/resources/sap-ui-core.js" 
             id="sap-ui-bootstrap"
             data-sap-ui-theme="sap_horizon"
@@ -27,7 +27,7 @@
                     return Controller.extend("PreviewController", {
                         onInit: function () {
 
-                            const data = {"Services":[{"ServiceName":"zfullSrv","DetailsURL":"./service/zfull/","Metadata":"./service/zfull/$metadata","Entities":[{"Name":"Books","URL":"./service/zfull/Books","FioriURL":"$fiori-preview/zfullSrv/Books#preview-app"},{"Name":"Authors","URL":"./service/zfull/Authors","FioriURL":"$fiori-preview/zfullSrv/Authors#preview-app"},{"Name":"Stores","URL":"./service/zfull/Stores","FioriURL":"$fiori-preview/zfullSrv/Stores#preview-app"},{"Name":"ListBooksOrder","URL":"./service/zfull/ListBooksOrder","FioriURL":"$fiori-preview/zfullSrv/ListBooksOrder#preview-app"},{"Name":"FixedValueListEntity","URL":"./service/zfull/FixedValueListEntity","FioriURL":"$fiori-preview/zfullSrv/FixedValueListEntity#preview-app"}],"EntitiesCount":5}]}
+                            const data = {"Services":[{"ServiceName":"zfullSrv","DetailsURL":"./service/zfull/","Metadata":"./service/zfull/$metadata","Entities":[{"Name":"Books","URL":"./service/zfull/Books","FioriURL":""},{"Name":"Authors","URL":"./service/zfull/Authors","FioriURL":""},{"Name":"Stores","URL":"./service/zfull/Stores","FioriURL":""},{"Name":"ListBooksOrder","URL":"./service/zfull/ListBooksOrder","FioriURL":""},{"Name":"FixedValueListEntity","URL":"./service/zfull/FixedValueListEntity","FioriURL":""}],"EntitiesCount":5}]}
                             this.getView().setModel(new JSONModel(data));
                         }
                     });

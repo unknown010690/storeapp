@@ -27,5 +27,7 @@
       ],
       "attribute-references": []
     }
-  ]
+  ],
+  "xsappname": "zfull",
+  "tenant-mode": "dedicated"
 }
